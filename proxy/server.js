@@ -2,10 +2,32 @@ import cors from "cors";
 import express from "express";
 import helmet from "helmet";
 import rateLimit from "express-rate-limit";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const envPath = path.join(__dirname, ".env");
+
+if (fs.existsSync(envPath)) {
+  const envLines = fs.readFileSync(envPath, "utf8").split("\n");
+  for (const rawLine of envLines) {
+    const line = rawLine.trim();
+    if (!line || line.startsWith("#")) continue;
+    const separatorIndex = line.indexOf("=");
+    if (separatorIndex === -1) continue;
+    const key = line.slice(0, separatorIndex).trim();
+    const value = line.slice(separatorIndex + 1).trim();
+    if (key && process.env[key] === undefined) {
+      process.env[key] = value;
+    }
+  }
+}
 
 const app = express();
 const PORT = process.env.PORT || 3001;
-const ALLOWED_ORIGIN = process.env.ALLOWED_ORIGIN;
+const ALLOWED_ORIGIN = process.env.ALLOWED_ORIGIN?.replace(/\/$/, "");
 
 if (!process.env.SOAP_URL) {
   console.warn("[proxy] SOAP_URL nao definido. Configure a variavel de ambiente para consultas funcionarem.");
@@ -21,15 +43,18 @@ app.use(express.json({ limit: "200kb" }));
 app.use(
   cors({
     origin: (origin, callback) => {
+      const normalizedOrigin = origin?.replace(/\/$/, "");
       if (!origin) return callback(null, true);
-      if (ALLOWED_ORIGIN && origin === ALLOWED_ORIGIN) return callback(null, true);
+      if (ALLOWED_ORIGIN && normalizedOrigin === ALLOWED_ORIGIN) return callback(null, true);
       return callback(new Error("Origin nao permitida"));
     },
+    methods: ["POST", "OPTIONS"],
+    allowedHeaders: ["Content-Type"],
   })
 );
 
 app.use((req, res, next) => {
-  const origin = req.headers.origin;
+  const origin = req.headers.origin?.replace(/\/$/, "");
   if (origin && ALLOWED_ORIGIN && origin !== ALLOWED_ORIGIN) {
     return res.status(403).json({ error: "Origin nao permitida" });
   }

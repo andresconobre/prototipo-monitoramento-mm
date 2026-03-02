@@ -1,0 +1,1514 @@
+[
+	{
+		"codigo" : 10001,
+		"filial" : "LOJAS MM CDAM",
+		"latitude" : "-25.1026162",
+		"longitude" : "-50.1834011"
+	},
+	{
+		"codigo" : 10002,
+		"filial" : "CASTRO I",
+		"latitude" : "-24.7956795",
+		"longitude" : "-50.0096158"
+	},
+	{
+		"codigo" : 10003,
+		"filial" : "IRATI",
+		"latitude" : "-25.4696118",
+		"longitude" : "-50.6509781"
+	},
+	{
+		"codigo" : 10004,
+		"filial" : "IVAÍ",
+		"latitude" : "-24.9877809",
+		"longitude" : "-50.8694026"
+	},
+	{
+		"codigo" : 10005,
+		"filial" : "RESERVA",
+		"latitude" : "-24.6493640",
+		"longitude" : "-50.8454451"
+	},
+	{
+		"codigo" : 10006,
+		"filial" : "STO ANTONIO DA PLATINA",
+		"latitude" : "-23.2947773",
+		"longitude" : "-50.0752922"
+	},
+	{
+		"codigo" : 10007,
+		"filial" : "PRUDENTÓPOLIS",
+		"latitude" : "-25.2154972",
+		"longitude" : "-50.9689342"
+	},
+	{
+		"codigo" : 10008,
+		"filial" : "TELÊMACO BORBA I",
+		"latitude" : "-24.3234466",
+		"longitude" : "-50.6205868"
+	},
+	{
+		"codigo" : 10009,
+		"filial" : "PITANGA I",
+		"latitude" : "-24.7565109",
+		"longitude" : "-51.7620363"
+	},
+	{
+		"codigo" : 10010,
+		"filial" : "SARANDI",
+		"latitude" : "-23.444379",
+		"longitude" : "-51.872639"
+	},
+	{
+		"codigo" : 10011,
+		"filial" : "NOVA RÚSSIA",
+		"latitude" : "-25.0854736",
+		"longitude" : "-50.1800015"
+	},
+	{
+		"codigo" : 10013,
+		"filial" : "CENTRO",
+		"latitude" : "-25.0943844",
+		"longitude" : "-50.1606498"
+	},
+	{
+		"codigo" : 10014,
+		"filial" : "CARAMBEÍ",
+		"latitude" : "-24.9534451",
+		"longitude" : "-50.1110812"
+	},
+	{
+		"codigo" : 10015,
+		"filial" : "MALLET",
+		"latitude" : "-25.8784475",
+		"longitude" : "-50.8266459"
+	},
+	{
+		"codigo" : 10016,
+		"filial" : "INÁCIO MARTINS",
+		"latitude" : "-25.5841200",
+		"longitude" : "-51.0779300"
+	},
+	{
+		"codigo" : 10017,
+		"filial" : "TIBAGI",
+		"latitude" : "-24.5018079",
+		"longitude" : "-50.4416229"
+	},
+	{
+		"codigo" : 10018,
+		"filial" : "SÃO MATEUS DO SUL",
+		"latitude" : "-25.8724715",
+		"longitude" : "-50.3834280"
+	},
+	{
+		"codigo" : 10019,
+		"filial" : "JAGUARIAÍVA",
+		"latitude" : "-24.2531149",
+		"longitude" : "-49.7106965"
+	},
+	{
+		"codigo" : 10020,
+		"filial" : "CAMPO MOURÃO",
+		"latitude" : "-24.0443476",
+		"longitude" : "-52.3743650"
+	},
+	{
+		"codigo" : 10021,
+		"filial" : "FRANCISCO BELTRAO",
+		"latitude" : "-26.0728855",
+		"longitude" : "-53.0568600"
+	},
+	{
+		"codigo" : 10022,
+		"filial" : "LAPA",
+		"latitude" : "-25.7646311",
+		"longitude" : "-49.7208558"
+	},
+	{
+		"codigo" : 10023,
+		"filial" : "ASSIS CHATEAUBRIAND",
+		"latitude" : "-24.4087552",
+		"longitude" : "-53.5178720"
+	},
+	{
+		"codigo" : 10024,
+		"filial" : "PARANAGUA I",
+		"latitude" : "-25.5187516",
+		"longitude" : "-48.5069465"
+	},
+	{
+		"codigo" : 10025,
+		"filial" : "CASCAVEL II",
+		"latitude" : "-24.9547406",
+		"longitude" : "-53.4529505"
+	},
+	{
+		"codigo" : 10026,
+		"filial" : "APUCARANA",
+		"latitude" : "-23.5515189",
+		"longitude" : "-51.4613781"
+	},
+	{
+		"codigo" : 10027,
+		"filial" : "SÃO MIGUEL DO IGUAÇU",
+		"latitude" : "-25.3464851",
+		"longitude" : "-54.2404590"
+	},
+	{
+		"codigo" : 10028,
+		"filial" : "FAZENDA RIO GRANDE",
+		"latitude" : "-25.6497725",
+		"longitude" : "-49.3082966"
+	},
+	{
+		"codigo" : 10029,
+		"filial" : "CAMPO LARGO",
+		"latitude" : "-25.4589836",
+		"longitude" : "-49.5296708"
+	},
+	{
+		"codigo" : 10030,
+		"filial" : "CASTRO II",
+		"latitude" : "-24.7955258",
+		"longitude" : "-50.0107794"
+	},
+	{
+		"codigo" : 10031,
+		"filial" : "CAMPINA GRANDE DO SUL",
+		"latitude" : "-25.3637072",
+		"longitude" : "-49.0989639"
+	},
+	{
+		"codigo" : 10032,
+		"filial" : "PIRAÍ DO SUL",
+		"latitude" : "-24.5342766",
+		"longitude" : "-49.9362219"
+	},
+	{
+		"codigo" : 10033,
+		"filial" : "PARANAGUÁ II",
+		"latitude" : "-25.5200344",
+		"longitude" : "-48.5065969"
+	},
+	{
+		"codigo" : 10034,
+		"filial" : "CALÇADÃO",
+		"latitude" : "-25.0939538",
+		"longitude" : "-50.15722679999999"
+	},
+	{
+		"codigo" : 10035,
+		"filial" : "PALMEIRA",
+		"latitude" : "-25.4327634",
+		"longitude" : "-50.0102625"
+	},
+	{
+		"codigo" : 10036,
+		"filial" : "MAÚA DA SERRA",
+		"latitude" : "-23.8972616",
+		"longitude" : "-51.225340200000005"
+	},
+	{
+		"codigo" : 10037,
+		"filial" : "GUARAPUAVA II",
+		"latitude" : "-25.3813871",
+		"longitude" : "-51.4820713"
+	},
+	{
+		"codigo" : 10038,
+		"filial" : "PIRAQUARA",
+		"latitude" : "-25.4472878",
+		"longitude" : "-49.0657757"
+	},
+	{
+		"codigo" : 10039,
+		"filial" : "SITIO CERCADO",
+		"latitude" : "-25.5354296",
+		"longitude" : "-49.2705979"
+	},
+	{
+		"codigo" : 10040,
+		"filial" : "FAZENDINHA II",
+		"latitude" : "-25.4770561",
+		"longitude" : "-49.3365217"
+	},
+	{
+		"codigo" : 10042,
+		"filial" : "FAXINAL",
+		"latitude" : "-23.9992794",
+		"longitude" : "-51.3177179"
+	},
+	{
+		"codigo" : 10044,
+		"filial" : "IMBITUVA",
+		"latitude" : "-25.2283040",
+		"longitude" : "-50.6028739"
+	},
+	{
+		"codigo" : 10045,
+		"filial" : "CURIÚVA",
+		"latitude" : "-24.0264775",
+		"longitude" : "-50.4385331"
+	},
+	{
+		"codigo" : 10046,
+		"filial" : "ITARARÉ",
+		"latitude" : "-24.1138705",
+		"longitude" : "-49.3345599"
+	},
+	{
+		"codigo" : 10047,
+		"filial" : "IRATI II",
+		"latitude" : "-25.4675818",
+		"longitude" : "-50.6533714"
+	},
+	{
+		"codigo" : 10048,
+		"filial" : "GUARATUBA",
+		"latitude" : "-25.8768697",
+		"longitude" : "-48.5730085"
+	},
+	{
+		"codigo" : 10049,
+		"filial" : "ALTO MARACANÃ",
+		"latitude" : "-25.3865141",
+		"longitude" : "-49.1893079"
+	},
+	{
+		"codigo" : 10050,
+		"filial" : "MM ATACADO",
+		"latitude" : "-25.1026162",
+		"longitude" : "-50.1834011"
+	},
+	{
+		"codigo" : 10051,
+		"filial" : "TOZETTO I ",
+		"latitude" : "-25.1245357",
+		"longitude" : "-50.1574042"
+	},
+	{
+		"codigo" : 10052,
+		"filial" : "VILA HAUER",
+		"latitude" : "-25.4821511",
+		"longitude" : "-49.2471332"
+	},
+	{
+		"codigo" : 10053,
+		"filial" : "CASCAVEL",
+		"latitude" : "-24.9551494",
+		"longitude" : "-53.4607320"
+	},
+	{
+		"codigo" : 10054,
+		"filial" : "ORTIGUEIRA",
+		"latitude" : "-24.2117350",
+		"longitude" : "-50.9379579"
+	},
+	{
+		"codigo" : 10055,
+		"filial" : "TOLEDO",
+		"latitude" : "-24.7341546",
+		"longitude" : "-53.7374859"
+	},
+	{
+		"codigo" : 10056,
+		"filial" : "LARANJEIRAS DO SUL",
+		"latitude" : "-25.3994823",
+		"longitude" : "-52.4092657"
+	},
+	{
+		"codigo" : 10057,
+		"filial" : "GUARANIAÇU",
+		"latitude" : "-25.0991214",
+		"longitude" : "-52.8698181"
+	},
+	{
+		"codigo" : 10058,
+		"filial" : "PALLADIUM",
+		"latitude" : "-25.0955219",
+		"longitude" : "-50.1542154"
+	},
+	{
+		"codigo" : 10059,
+		"filial" : "TEIXEIRA SOARES",
+		"latitude" : "-25.3678393",
+		"longitude" : "-50.4555263"
+	},
+	{
+		"codigo" : 10060,
+		"filial" : "SUPER",
+		"latitude" : "-25.0951606",
+		"longitude" : "-50.16043339999999"
+	},
+	{
+		"codigo" : 10061,
+		"filial" : "IMBAÚ",
+		"latitude" : "-24.6493640",
+		"longitude" : "-50.8454451"
+	},
+	{
+		"codigo" : 10062,
+		"filial" : "IBAITI",
+		"latitude" : "-23.7746295",
+		"longitude" : "-50.2788724"
+	},
+	{
+		"codigo" : 10063,
+		"filial" : "ARAPOTI",
+		"latitude" : "-24.1520224",
+		"longitude" : "-49.8207161"
+	},
+	{
+		"codigo" : 10064,
+		"filial" : "FAZENDA RIO GRANDE II",
+		"latitude" : "-25.6445782",
+		"longitude" : "-49.3162384"
+	},
+	{
+		"codigo" : 10065,
+		"filial" : "SIQUEIRA CAMPOS",
+		"latitude" : "-23.6837325",
+		"longitude" : "-49.8219965"
+	},
+	{
+		"codigo" : 10067,
+		"filial" : "MAL. CÂNDIDO RONDON",
+		"latitude" : "-24.5683497",
+		"longitude" : "-54.0411557"
+	},
+	{
+		"codigo" : 10068,
+		"filial" : "DEP. CURITIBA",
+		"latitude" : "-25.4977381",
+		"longitude" : " -49.342719"
+	},
+	{
+		"codigo" : 10069,
+		"filial" : "REBOUÇAS",
+		"latitude" : "-25.6062272",
+		"longitude" : "-50.6934839"
+	},
+	{
+		"codigo" : 10070,
+		"filial" : "IPIRANGA",
+		"latitude" : "-25.0215979",
+		"longitude" : "-50.590109900000016"
+	},
+	{
+		"codigo" : 10071,
+		"filial" : "PINHÃO",
+		"latitude" : "-25.6952872",
+		"longitude" : "-51.6602745"
+	},
+	{
+		"codigo" : 10072,
+		"filial" : "BITURUNA",
+		"latitude" : "-26.1614668",
+		"longitude" : "-51.5530909"
+	},
+	{
+		"codigo" : 10073,
+		"filial" : "GAL CARNEIRO",
+		"latitude" : "-26.4292633",
+		"longitude" : "-51.3169867"
+	},
+	{
+		"codigo" : 10074,
+		"filial" : "IVAIPORÃ",
+		"latitude" : "-24.2499802",
+		"longitude" : "-51.6805001"
+	},
+	{
+		"codigo" : 10077,
+		"filial" : "SÃO JOÃO DO TRIUNFO",
+		"latitude" : "-25.6728597",
+		"longitude" : "-50.28764239999998"
+	},
+	{
+		"codigo" : 10079,
+		"filial" : "CAMBÉ",
+		"latitude" : "-23.2779678",
+		"longitude" : "-51.2803347"
+	},
+	{
+		"codigo" : 10081,
+		"filial" : "MANOEL RIBAS",
+		"latitude" : "-24.5401301",
+		"longitude" : "-51.6391189"
+	},
+	{
+		"codigo" : 10083,
+		"filial" : "E-COMMERCE",
+		"latitude" : "-25.0945465",
+		"longitude" : "-50.1632873"
+	},
+	{
+		"codigo" : 10084,
+		"filial" : "PONTAL DO PARANÁ",
+		"latitude" : "-25.6734145",
+		"longitude" : "-48.5107532"
+	},
+	{
+		"codigo" : 10085,
+		"filial" : "CRUZ MACHADO",
+		"latitude" : "-26.0196582",
+		"longitude" : "-51.3515752"
+	},
+	{
+		"codigo" : 10087,
+		"filial" : "PINHEIRINHO I",
+		"latitude" : "-25.5185031",
+		"longitude" : "-49.2954865"
+	},
+	{
+		"codigo" : 10088,
+		"filial" : "PINHAIS II",
+		"latitude" : "-25.4287349",
+		"longitude" : "-49.1831960"
+	},
+	{
+		"codigo" : 10089,
+		"filial" : "CÂNDIDO DE ABREU",
+		"latitude" : "-24.5665242",
+		"longitude" : "-51.3222460"
+	},
+	{
+		"codigo" : 10090,
+		"filial" : "QUEDAS DO IGUACU",
+		"latitude" : "-25.4518610",
+		"longitude" : "-52.9100585"
+	},
+	{
+		"codigo" : 10091,
+		"filial" : "SÃO JOSÉ DOS PINHAIS",
+		"latitude" : "-25.5382241",
+		"longitude" : "-49.1999664"
+	},
+	{
+		"codigo" : 10095,
+		"filial" : "CANDÓI",
+		"latitude" : "-25.6411525",
+		"longitude" : "-52.1226534"
+	},
+	{
+		"codigo" : 10096,
+		"filial" : "RIO AZUL",
+		"latitude" : "-25.7254356",
+		"longitude" : "-50.7896891"
+	},
+	{
+		"codigo" : 10097,
+		"filial" : "SENGÉS ",
+		"latitude" : "-24.1142210",
+		"longitude" : "-49.4674861"
+	},
+	{
+		"codigo" : 10098,
+		"filial" : "TURVO",
+		"latitude" : "-25.0464889",
+		"longitude" : "-51.5423373"
+	},
+	{
+		"codigo" : 10101,
+		"filial" : "CANOINHAS",
+		"latitude" : "-26.1750407",
+		"longitude" : "-50.3901302"
+	},
+	{
+		"codigo" : 10102,
+		"filial" : "GARUVA",
+		"latitude" : "-26.0295853",
+		"longitude" : "-48.8565394"
+	},
+	{
+		"codigo" : 10103,
+		"filial" : "MAFRA",
+		"latitude" : "-26.1128966",
+		"longitude" : "-49.8049518"
+	},
+	{
+		"codigo" : 10104,
+		"filial" : "PATO BRANCO",
+		"latitude" : "-26.2067530",
+		"longitude" : "-52.6795065"
+	},
+	{
+		"codigo" : 10105,
+		"filial" : "TATUQUARA",
+		"latitude" : "-25.5639662",
+		"longitude" : "-49.3392351"
+	},
+	{
+		"codigo" : 10106,
+		"filial" : "CIC",
+		"latitude" : "-25.5105006",
+		"longitude" : "-49.3257505"
+	},
+	{
+		"codigo" : 10107,
+		"filial" : "DAT",
+		"latitude" : "-25.1026162",
+		"longitude" : "-50.1834011"
+	},
+	{
+		"codigo" : 10108,
+		"filial" : "UNIÃO DA VITÓRIA",
+		"latitude" : "-26.2298512",
+		"longitude" : "-51.0840616"
+	},
+	{
+		"codigo" : 10111,
+		"filial" : "ARAUCÁRIA II",
+		"latitude" : "-25.5922904",
+		"longitude" : "-49.4092042"
+	},
+	{
+		"codigo" : 10112,
+		"filial" : "DOIS VIZINHOS",
+		"latitude" : "-25.7492685",
+		"longitude" : "-53.0527933"
+	},
+	{
+		"codigo" : 10113,
+		"filial" : "ARAPONGAS",
+		"latitude" : "-23.4130003",
+		"longitude" : "-51.4330806"
+	},
+	{
+		"codigo" : 10114,
+		"filial" : "QUITANDINHA",
+		"latitude" : "-25.4283563",
+		"longitude" : "-49.2732515"
+	},
+	{
+		"codigo" : 10115,
+		"filial" : "MATINHOS",
+		"latitude" : "-25.8173980",
+		"longitude" : "-48.5333574"
+	},
+	{
+		"codigo" : 10116,
+		"filial" : "TELÊMACO BORBA II",
+		"latitude" : "-24.3261779",
+		"longitude" : "-50.6236038"
+	},
+	{
+		"codigo" : 10117,
+		"filial" : "TOZETTO II",
+		"latitude" : "-25.0909399",
+		"longitude" : "-50.1437587"
+	},
+	{
+		"codigo" : 10119,
+		"filial" : "INDAIAL",
+		"latitude" : "-26.8919038",
+		"longitude" : "-49.2418993"
+	},
+	{
+		"codigo" : 10121,
+		"filial" : "RIO NEGRINHO",
+		"latitude" : "-26.2566785",
+		"longitude" : "-49.5179578"
+	},
+	{
+		"codigo" : 10122,
+		"filial" : "ITAIÓPOLIS",
+		"latitude" : "-26.3373759",
+		"longitude" : "-49.9060595"
+	},
+	{
+		"codigo" : 10123,
+		"filial" : "JOINVILLE XV",
+		"latitude" : "-26.3007246",
+		"longitude" : "-48.8461617"
+	},
+	{
+		"codigo" : 10124,
+		"filial" : "AVENTUREIRO",
+		"latitude" : "-26.2541798",
+		"longitude" : "-48.8196268"
+	},
+	{
+		"codigo" : 10125,
+		"filial" : "COSTA E SILVA",
+		"latitude" : "-26.3050883",
+		"longitude" : "-48.8460931"
+	},
+	{
+		"codigo" : 10126,
+		"filial" : "JARAGUÁ DO SUL",
+		"latitude" : "-26.4829028",
+		"longitude" : "-49.0827533"
+	},
+	{
+		"codigo" : 10127,
+		"filial" : "NAVEGANTES",
+		"latitude" : "-26.8993946",
+		"longitude" : "-48.6552802"
+	},
+	{
+		"codigo" : 10128,
+		"filial" : "GASPAR",
+		"latitude" : "-26.9289237",
+		"longitude" : "-48.9573302"
+	},
+	{
+		"codigo" : 10129,
+		"filial" : "FÁTIMA",
+		"latitude" : "-26.3218149",
+		"longitude" : "-48.8166153"
+	},
+	{
+		"codigo" : 10130,
+		"filial" : "MARINGA II",
+		"latitude" : "-23.420638",
+		"longitude" : "-51.942981"
+	},
+	{
+		"codigo" : 10131,
+		"filial" : "MARINGÁ",
+		"latitude" : "-23.4208002",
+		"longitude" : "-51.9388855"
+	},
+	{
+		"codigo" : 10132,
+		"filial" : "DEP. SANTA CATARINA",
+		"latitude" : "-26.3156559",
+		"longitude" : "-48.8644782"
+	},
+	{
+		"codigo" : 10132,
+		"filial" : "DEP. SANTA CATARINA",
+		"latitude" : "-26.3156559",
+		"longitude" : "-48.8644782"
+	},
+	{
+		"codigo" : 10133,
+		"filial" : "BANDEIRANTES",
+		"latitude" : "-23.1082607",
+		"longitude" : "-50.3744224"
+	},
+	{
+		"codigo" : 10134,
+		"filial" : "SÃO FRANCISCO DO SUL",
+		"latitude" : "-26.2459423",
+		"longitude" : "-48.6332144"
+	},
+	{
+		"codigo" : 10135,
+		"filial" : "DEP. CTBA",
+		"latitude" : "-25.4224911",
+		"longitude" : "-49.3421840"
+	},
+	{
+		"codigo" : 10136,
+		"filial" : "ASTORGA",
+		"latitude" : "-23.2348329",
+		"longitude" : "-51.6632629"
+	},
+	{
+		"codigo" : 10137,
+		"filial" : "RIO BRANCO DO SUL",
+		"latitude" : "-25.4283563",
+		"longitude" : "-49.2732515"
+	},
+	{
+		"codigo" : 10138,
+		"filial" : "ROLANDIA",
+		"latitude" : "-23.3105094",
+		"longitude" : "-51.3695206"
+	},
+	{
+		"codigo" : 10139,
+		"filial" : "CAMBARÁ",
+		"latitude" : "-23.0372095",
+		"longitude" : "-50.0713991"
+	},
+	{
+		"codigo" : 10141,
+		"filial" : "PITANGA",
+		"latitude" : "-24.7615728",
+		"longitude" : "-51.7647348"
+	},
+	{
+		"codigo" : 10142,
+		"filial" : "PARANAGUAMIRIM",
+		"latitude" : "-26.3453743",
+		"longitude" : "-48.7924043"
+	},
+	{
+		"codigo" : 10143,
+		"filial" : "SÃO BENTO DO SUL",
+		"latitude" : "-26.2474804",
+		"longitude" : "-49.3813456"
+	},
+	{
+		"codigo" : 10144,
+		"filial" : "UBIRATÃ",
+		"latitude" : "-24.5440288",
+		"longitude" : "-52.9897143"
+	},
+	{
+		"codigo" : 10145,
+		"filial" : "BARRA VELHA",
+		"latitude" : "-26.6329651",
+		"longitude" : "-48.6832818"
+	},
+	{
+		"codigo" : 10147,
+		"filial" : "PIRABEIRABA",
+		"latitude" : "-26.2099717",
+		"longitude" : "-48.9083942"
+	},
+	{
+		"codigo" : 10149,
+		"filial" : "AMPÉRE",
+		"latitude" : "-25.9125356",
+		"longitude" : "-53.4713190"
+	},
+	{
+		"codigo" : 10152,
+		"filial" : "CASCAVEL III",
+		"latitude" : "-24.9170263",
+		"longitude" : "-53.4216394"
+	},
+	{
+		"codigo" : 10153,
+		"filial" : "LONDRINA",
+		"latitude" : "-23.3043282",
+		"longitude" : "-51.1614889"
+	},
+	{
+		"codigo" : 10154,
+		"filial" : "UMUARAMA ",
+		"latitude" : "-23.7608562",
+		"longitude" : "-53.3070795"
+	},
+	{
+		"codigo" : 10155,
+		"filial" : "PAIÇANDU",
+		"latitude" : "-23.4569243",
+		"longitude" : "-52.0476154"
+	},
+	{
+		"codigo" : 10156,
+		"filial" : "CORUPÁ",
+		"latitude" : "-26.4235330",
+		"longitude" : "-49.2447474"
+	},
+	{
+		"codigo" : 10158,
+		"filial" : "MARECHAL",
+		"latitude" : "-25.4318617",
+		"longitude" : "-49.2708422"
+	},
+	{
+		"codigo" : 10160,
+		"filial" : "SÃO VICENTE",
+		"latitude" : "-26.9055261",
+		"longitude" : "-48.6886501"
+	},
+	{
+		"codigo" : 10161,
+		"filial" : "STA TEREZINHA DO ITAIPU",
+		"latitude" : "-25.4357672",
+		"longitude" : "-54.405357400000014"
+	},
+	{
+		"codigo" : 10162,
+		"filial" : "GUARAMIRIM",
+		"latitude" : "-26.4739233",
+		"longitude" : "-49.0193514"
+	},
+	{
+		"codigo" : 10164,
+		"filial" : "DEP. CAMBÉ",
+		"latitude" : "-23.3049945",
+		"longitude" : "-51.2318202"
+	},
+	{
+		"codigo" : 10166,
+		"filial" : "LONDRINA II",
+		"latitude" : "-23.310922",
+		"longitude" : "-51.160900"
+	},
+	{
+		"codigo" : 10167,
+		"filial" : "ITAPOÁ",
+		"latitude" : "-26.1173635",
+		"longitude" : "-48.6167637"
+	},
+	{
+		"codigo" : 10168,
+		"filial" : "JANDAIA DO SUL",
+		"latitude" : "-23.6010686",
+		"longitude" : "-51.63478599999996"
+	},
+	{
+		"codigo" : 10169,
+		"filial" : "JARAGUA DO SUL II",
+		"latitude" : "-26.5122876",
+		"longitude" : "-49.1191239"
+	},
+	{
+		"codigo" : 10170,
+		"filial" : "ANDIRÁ",
+		"latitude" : "-23.0495175",
+		"longitude" : "-50.224726299999986"
+	},
+	{
+		"codigo" : 10171,
+		"filial" : "ARAQUARI",
+		"latitude" : "-26.4131288",
+		"longitude" : "-48.7940382"
+	},
+	{
+		"codigo" : 10172,
+		"filial" : "SANTA PAULA",
+		"latitude" : "-25.0999610",
+		"longitude" : "-50.2018490"
+	},
+	{
+		"codigo" : 10173,
+		"filial" : "MEDIANEIRA",
+		"latitude" : "-25.2897518",
+		"longitude" : "-54.1380311"
+	},
+	{
+		"codigo" : 10174,
+		"filial" : "BRUSQUE",
+		"latitude" : "-27.0985776",
+		"longitude" : "-48.9166822"
+	},
+	{
+		"codigo" : 10175,
+		"filial" : "FOZ DO IGUAÇÚ",
+		"latitude" : "-25.5419214",
+		"longitude" : "-54.5862411"
+	},
+	{
+		"codigo" : 10176,
+		"filial" : "PEABIRU",
+		"latitude" : "-23.9180092",
+		"longitude" : "-52.3390171"
+	},
+	{
+		"codigo" : 10178,
+		"filial" : "PORECATU",
+		"latitude" : "-22.7596310",
+		"longitude" : "-51.3777367"
+	},
+	{
+		"codigo" : 10179,
+		"filial" : "PALMITAL",
+		"latitude" : "-24.8845627",
+		"longitude" : "-52.2102019"
+	},
+	{
+		"codigo" : 10180,
+		"filial" : "SANTA MARIA DO OESTE",
+		"latitude" : "-24.9267355",
+		"longitude" : "-51.8504358"
+	},
+	{
+		"codigo" : 10182,
+		"filial" : "LONDRINA III",
+		"latitude" : "-23.2578473",
+		"longitude" : "-51.1527175"
+	},
+	{
+		"codigo" : 10183,
+		"filial" : "JOINVILLE\/ESCOLINHA",
+		"latitude" : "-26.3605367",
+		"longitude" : "-48.8312196"
+	},
+	{
+		"codigo" : 10185,
+		"filial" : "VENTANIA",
+		"latitude" : "-24.2444017",
+		"longitude" : "-50.243184600000006"
+	},
+	{
+		"codigo" : 10187,
+		"filial" : "WENCESLAU BRAZ",
+		"latitude" : "-23.8777634",
+		"longitude" : "-49.8001064"
+	},
+	{
+		"codigo" : 10190,
+		"filial" : "PAPANDUVA",
+		"latitude" : "-26.404587521448093",
+		"longitude" : "-50.14806360223851"
+	},
+	{
+		"codigo" : 10191,
+		"filial" : "BALNEÁRIO BARRA DO SUL",
+		"latitude" : "-26.460481457903963",
+		"longitude" : "-48.610285499999975"
+	},
+	{
+		"codigo" : 10193,
+		"filial" : "MANDAGUARI",
+		"latitude" : "-23.5260464",
+		"longitude" : "-51.6757949"
+	},
+	{
+		"codigo" : 10194,
+		"filial" : "RIO NEGRO",
+		"latitude" : "-26.1083309",
+		"longitude" : "-49.8004951"
+	},
+	{
+		"codigo" : 10195,
+		"filial" : "BALNEÁRIO PIÇARRAS",
+		"latitude" : "-26.7729185",
+		"longitude" : "-48.66457839999998"
+	},
+	{
+		"codigo" : 10197,
+		"filial" : "PONTA PORA",
+		"latitude" : "-22.5365428",
+		"longitude" : "-55.72665749999999"
+	},
+	{
+		"codigo" : 10198,
+		"filial" : "NOVA ALVORADA DO SUL",
+		"latitude" : "-21.4500079",
+		"longitude" : "-54.37981260000004"
+	},
+	{
+		"codigo" : 10199,
+		"filial" : "BALNEARIO CAMBORIÚ",
+		"latitude" : "-26.991072",
+		"longitude" : "-48.63520840000001"
+	},
+	{
+		"codigo" : 10200,
+		"filial" : "IVINHEMA",
+		"latitude" : "-22.298256",
+		"longitude" : "-53.82137929999999"
+	},
+	{
+		"codigo" : 10201,
+		"filial" : "MUNDO NOVO",
+		"latitude" : "-23.9332432",
+		"longitude" : "-54.283547099999964"
+	},
+	{
+		"codigo" : 10203,
+		"filial" : "GUARAPUAVA COLONIA VITORIA",
+		"latitude" : "-25.593056",
+		"longitude" : "-51.67777799999999"
+	},
+	{
+		"codigo" : 10207,
+		"filial" : "CATANDUVAS",
+		"latitude" : "-25.2083109",
+		"longitude" : "-53.1556999"
+	},
+	{
+		"codigo" : 10208,
+		"filial" : "AMAMBAI",
+		"latitude" : "-23.0945448",
+		"longitude" : "-55.240966"
+	},
+	{
+		"codigo" : 10210,
+		"filial" : "COLOMBO",
+		"latitude" : "-25.2906379",
+		"longitude" : "-49.2277261"
+	},
+	{
+		"codigo" : 10211,
+		"filial" : " CANTAGALO",
+		"latitude" : "-25.3831199",
+		"longitude" : "-52.2042323"
+	},
+	{
+		"codigo" : 10214,
+		"filial" : "TOZETTO III",
+		"latitude" : "-25.0793218",
+		"longitude" : "-50.1849902"
+	},
+	{
+		"codigo" : 10215,
+		"filial" : "ANTONINA",
+		"latitude" : "-25.4306499",
+		"longitude" : "-48.7137627"
+	},
+	{
+		"codigo" : 10217,
+		"filial" : "SANTA TEREZA DO OESTE",
+		"latitude" : "-25.0527765",
+		"longitude" : "-53.627362800000014"
+	},
+	{
+		"codigo" : 10218,
+		"filial" : "DOURADOS ",
+		"latitude" : "-22.2217568",
+		"longitude" : "-54.74768499999999"
+	},
+	{
+		"codigo" : 10219,
+		"filial" : "PALOTINA",
+		"latitude" : "-24.2785639",
+		"longitude" : "-53.841455199999984"
+	},
+	{
+		"codigo" : 10221,
+		"filial" : "ITAPERUÇU",
+		"latitude" : "-25.2220205",
+		"longitude" : "-49.345528400000035"
+	},
+	{
+		"codigo" : 10222,
+		"filial" : "NOVA ANDRADINA ",
+		"latitude" : "-22.2510195",
+		"longitude" : "-53.350634799999966"
+	},
+	{
+		"codigo" : 10223,
+		"filial" : "TIMBO II ",
+		"latitude" : "-26.823808",
+		"longitude" : "-49.27697979999999"
+	},
+	{
+		"codigo" : 10224,
+		"filial" : "IBIPORÃ ",
+		"latitude" : "-23.2701232",
+		"longitude" : "-51.049348899999984"
+	},
+	{
+		"codigo" : 10226,
+		"filial" : "ITAPEMA SC",
+		"latitude" : "-27.1182057",
+		"longitude" : "-48.61180189999999"
+	},
+	{
+		"codigo" : 10227,
+		"filial" : "SANTA FÉ ",
+		"latitude" : "-23.0384715",
+		"longitude" : "-51.80737909999999"
+	},
+	{
+		"codigo" : 10229,
+		"filial" : "TRES BARRAS DO PARANA ",
+		"latitude" : "-25.4214896",
+		"longitude" : "-53.17852149999999"
+	},
+	{
+		"codigo" : 10230,
+		"filial" : "MARINGA III",
+		"latitude" : "-23.424082",
+		"longitude" : "-51.920153"
+	},
+	{
+		"codigo" : 10231,
+		"filial" : "NAVIRAI ",
+		"latitude" : "-23.0630997",
+		"longitude" : "-54.198070400000006"
+	},
+	{
+		"codigo" : 10235,
+		"filial" : "FATIMA DO SUL",
+		"latitude" : "-22.379532",
+		"longitude" : "-54.507915"
+	},
+	{
+		"codigo" : 10236,
+		"filial" : "MANDAGUAÇU",
+		"latitude" : "-23.3427494",
+		"longitude" : "-52.0976296"
+	},
+	{
+		"codigo" : 10238,
+		"filial" : "CLEVELÂNDIA",
+		"latitude" : "-26.4066363",
+		"longitude" : "-52.357816"
+	},
+	{
+		"codigo" : 10239,
+		"filial" : "JOAQUIM TÁVORA",
+		"latitude" : "-23.4980957",
+		"longitude" : "-49.9236233"
+	},
+	{
+		"codigo" : 10240,
+		"filial" : "MARIALVA",
+		"latitude" : "-23.4861044",
+		"longitude" : "-51.7953854"
+	},
+	{
+		"codigo" : 10241,
+		"filial" : "NOVO MUNDO",
+		"latitude" : "-25.4820026",
+		"longitude" : "-49.294683"
+	},
+	{
+		"codigo" : 10242,
+		"filial" : "JACAREZINHO",
+		"latitude" : "-23.1593012",
+		"longitude" : "-49.9748418"
+	},
+	{
+		"codigo" : 10243,
+		"filial" : "PALMAS-PR",
+		"latitude" : "-26.4836538",
+		"longitude" : "-51.9903527"
+	},
+	{
+		"codigo" : 10244,
+		"filial" : "STO ANTONIO SUDOESTE",
+		"latitude" : "-26.0611652",
+		"longitude" : "-53.726242"
+	},
+	{
+		"codigo" : 10245,
+		"filial" : "NOVA ESPERANÇA-PR",
+		"latitude" : "-23.1851635",
+		"longitude" : "-52.2033882"
+	},
+	{
+		"codigo" : 10246,
+		"filial" : "MANGUEIRINHA",
+		"latitude" : "-25.942426",
+		"longitude" : "-52.171501"
+	},
+	{
+		"codigo" : 10247,
+		"filial" : "CÉU AZUL",
+		"latitude" : "-25.1557811",
+		"longitude" : "-53.8515613"
+	},
+	{
+		"codigo" : 10248,
+		"filial" : "CHOPINZINHO",
+		"latitude" : "-25.8559631",
+		"longitude" : "-52.5278357"
+	},
+	{
+		"codigo" : 10249,
+		"filial" : "SIDROLANDIA MS",
+		"latitude" : "-20.941612",
+		"longitude" : "-54.965196"
+	},
+	{
+		"codigo" : 10250,
+		"filial" : "MARACAJU MS",
+		"latitude" : "-21.623070",
+		"longitude" : "-55.160297"
+	},
+	{
+		"codigo" : 10251,
+		"filial" : "GUAÍRA PR",
+		"latitude" : "-24.081439",
+		"longitude" : "-54.251807"
+	},
+	{
+		"codigo" : 10252,
+		"filial" : "REALEZA",
+		"latitude" : "-25.677156",
+		"longitude" : "-53.550049"
+	},
+	{
+		"codigo" : 10253,
+		"filial" : "COLORADO",
+		"latitude" : "-22.8405902",
+		"longitude" : "-51.9596255"
+	},
+	{
+		"codigo" : 10254,
+		"filial" : "GOIOERE",
+		"latitude" : "-24.184650",
+		"longitude" : "-53.025220"
+	},
+	{
+		"codigo" : 10255,
+		"filial" : "RIO BRILHANTE MS",
+		"latitude" : "-21.80064",
+		"longitude" : "-54.5417551"
+	},
+	{
+		"codigo" : 10256,
+		"filial" : "CAARAPÓ MS",
+		"latitude" : "-22.6369057",
+		"longitude" : "-54.8262632"
+	},
+	{
+		"codigo" : 10257,
+		"filial" : "CURITIBA ",
+		"latitude" : "-25.4314412",
+		"longitude" : "-49.2706702"
+	},
+	{
+		"codigo" : 10258,
+		"filial" : "PARANAVAÍ",
+		"latitude" : "-23.081407",
+		"longitude" : "-52.4638498"
+	},
+	{
+		"codigo" : 10259,
+		"filial" : "PINHAIS IRAI",
+		"latitude" : "-25.4507981",
+		"longitude" : "-49.1802078"
+	},
+	{
+		"codigo" : 10260,
+		"filial" : "CORONEL VIVIDA",
+		"latitude" : "-25.981741",
+		"longitude" : "-52.565836"
+	},
+	{
+		"codigo" : 10261,
+		"filial" : "CAMPO GRANDE",
+		"latitude" : "-20.549838",
+		"longitude" : "-54.582117"
+	},
+	{
+		"codigo" : 10262,
+		"filial" : "OURINHOS SP",
+		"latitude" : "-22.978132",
+		"longitude" : "-49.868908"
+	},
+	{
+		"codigo" : 10263,
+		"filial" : "CAPITÃO LEÔNIDAS MARQUES",
+		"latitude" : "-25.475138",
+		"longitude" : "-53.613596"
+	},
+	{
+		"codigo" : 10264,
+		"filial" : "CARLÓPOLIS PR",
+		"latitude" : "-23.424063",
+		"longitude" : "-49.716528"
+	},
+	{
+		"codigo" : 10265,
+		"filial" : "ITAPEJARA D OESTE",
+		"latitude" : "-25.972151",
+		"longitude" : "-52.814052"
+	},
+	{
+		"codigo" : 10266,
+		"filial" : "RIO BRANCO CASTRO PR",
+		"latitude" : "-24.804337",
+		"longitude" : "-49.993799"
+	},
+	{
+		"codigo" : 10267,
+		"filial" : "RIBAS DO RIO PARDO MS",
+		"latitude" : "-20.454009",
+		"longitude" : "-53.760617"
+	},
+	{
+		"codigo" : 10268,
+		"filial" : "CONTORNO LESTE",
+		"latitude" : "-25.114742",
+		"longitude" : "-50.119825"
+	},
+	{
+		"codigo" : 10269,
+		"filial" : "BATAGUASSU MS",
+		"latitude" : "-21.716905",
+		"longitude" : "-52.422384"
+	},
+	{
+		"codigo" : 10270,
+		"filial" : "RIBEIRÃO CLARO PR",
+		"latitude" : "-23.198606",
+		"longitude" : "-49.758568"
+	},
+	{
+		"codigo" : 10271,
+		"filial" : "CD ITAPEVI II",
+		"latitude" : "-23.4684739",
+		"longitude" : "-46.499821"
+	},
+	{
+		"codigo" : 10272,
+		"filial" : "CAMPO GRANDE II",
+		"latitude" : "-20.437848",
+		"longitude" : "-54.6176873"
+	},
+	{
+		"codigo" : 10273,
+		"filial" : "DEP.ESPIRITO SANTO",
+		"latitude" : "-20.3339988",
+		"longitude" : "-40.3810856"
+	},
+	{
+		"codigo" : 10274,
+		"filial" : "ECOMMERCE ESPIRITO SANTO",
+		"latitude" : "-20.3339988",
+		"longitude" : "-40.3810856"
+	},
+	{
+		"codigo" : 10275,
+		"filial" : "EVENTOS",
+		"latitude" : "-25.1026162",
+		"longitude" : "-50.1834011"
+	},
+	{
+		"codigo" : 10276,
+		"filial" : "CAFELÂNDIA",
+		"latitude" : "-24.620755",
+		"longitude" : "-53.32327"
+	},
+	{
+		"codigo" : 10277,
+		"filial" : "CIANORTE",
+		"latitude" : "-23.6575361",
+		"longitude" : "-52.6068739"
+	},
+	{
+		"codigo" : 10278,
+		"filial" : "TAUNAY",
+		"latitude" : "-25.0960292",
+		"longitude" : "-50.1707109"
+	},
+	{
+		"codigo" : 10279,
+		"filial" : "FOZ DO IGUAÇÚ II",
+		"latitude" : "-25.494684",
+		"longitude" : "-54.5658302"
+	},
+	{
+		"codigo" : 10280,
+		"filial" : "DOURADOS II",
+		"latitude" : "-22.228385",
+		"longitude" : "-54.8164869"
+	},
+	{
+		"codigo" : 10281,
+		"filial" : "DEPÓSITO CAMPINA GRANDE - PARAÍBA",
+		"latitude" : "-7.2463746",
+		"longitude" : "-35.8900329"
+	},
+	{
+		"codigo" : 10282,
+		"filial" : "AQUIDAUANA MS",
+		"latitude" : "-20.475922",
+		"longitude" : "-55.7953242"
+	},
+	{
+		"codigo" : 10283,
+		"filial" : "CAMPO GRANDE III",
+		"latitude" : "-20.461926366471406",
+		"longitude" : " -54.622553499999995"
+	},
+	{
+		"codigo" : 10284,
+		"filial" : "BLUMENAU SC",
+		"latitude" : "-26.8780837",
+		"longitude" : "-49.0670624"
+	},
+	{
+		"codigo" : 10285,
+		"filial" : "DEPÓSITO FECHADO PG",
+		"latitude" : "-25.142442",
+		"longitude" : "-50.1165015"
+	},
+	{
+		"codigo" : 10286,
+		"filial" : "BONITO MS",
+		"latitude" : "-21.1332366",
+		"longitude" : "-56.4910419"
+	},
+	{
+		"codigo" : 10287,
+		"filial" : "CD ITAPEVI SP",
+		"latitude" : "-23.5635876",
+		"longitude" : "-46.9481099"
+	},
+	{
+		"codigo" : 10288,
+		"filial" : "CD CAMPO GRANDE MS",
+		"latitude" : "-20.5149719",
+		"longitude" : "-54.6654901"
+	},
+	{
+		"codigo" : 10289,
+		"filial" : "PONTA PORA II",
+		"latitude" : "-25.1026162",
+		"longitude" : "-50.1834011"
+	},
+	{
+		"codigo" : 10290,
+		"filial" : "CONTENDA",
+		"latitude" : "-25.680818",
+		"longitude" : "-49.542096"
+	},
+	{
+		"codigo" : 10291,
+		"filial" : "GUARAPUAVA SUPERPÃO",
+		"latitude" : "-25.40806",
+		"longitude" : "-51.48279"
+	},
+	{
+		"codigo" : 10292,
+		"filial" : "DOURADOS III",
+		"latitude" : "-22.2218",
+		"longitude" : "-54.8064"
+	},
+	{
+		"codigo" : 10293,
+		"filial" : "DEP. PARANAGUA",
+		"latitude" : "-25.5205",
+		"longitude" : "-48.5095"
+	},
+	{
+		"codigo" : 10294,
+		"filial" : "IPANEMA",
+		"latitude" : "-25.6734",
+		"longitude" : "-48.5108"
+	},
+	{
+		"codigo" : 10295,
+		"filial" : "CD RIO BRILHANTE MS",
+		"latitude" : "-21.8023",
+		"longitude" : "-54.5436"
+	},
+	{
+		"codigo" : 10296,
+		"filial" : "DEPÓSITO FEIRA DE SANTANA ",
+		"latitude" : " -12.2733",
+		"longitude" : "-38.9556"
+	},
+	{
+		"codigo" : 10297,
+		"filial" : "MIRANDA",
+		"latitude" : "-20.1917",
+		"longitude" : "-57.0558"
+	},
+	{
+		"codigo" : 10800,
+		"filial" : "MM DREAMS - CASTRO",
+		"latitude" : "-24.7931632",
+		"longitude" : "-50.0122876"
+	},
+	{
+		"codigo" : 10801,
+		"filial" : "MM DREAMS - PONTA GROSSA PR",
+		"latitude" : "-25.0977826",
+		"longitude" : "-50.2038071"
+	},
+	{
+		"codigo" : 10802,
+		"filial" : "MM DREAMS - CARAMBEÍ",
+		"latitude" : "-24.9506852",
+		"longitude" : "-50.1130369"
+	},
+	{
+		"codigo" : 10803,
+		"filial" : "MM DREAMS - IVAIPORA",
+		"latitude" : "-24.252582",
+		"longitude" : "-51.6734433"
+	},
+	{
+		"codigo" : 10999,
+		"filial" : "MATRIZ",
+		"latitude" : "-25.0956501",
+		"longitude" : "-50.1683234"
+	}
+]

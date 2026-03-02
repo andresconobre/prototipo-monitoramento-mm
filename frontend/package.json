@@ -1,12 +1,10 @@
 {
-  "name": "prototipo-monitoramento",
+  "name": "prototipo-monitoramento-mm-frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "proxy": "node proxy-server.js",
-    "dev:all": "concurrently \"npm run dev\" \"npm run proxy\"",
     "build": "vite build"
   },
   "dependencies": {

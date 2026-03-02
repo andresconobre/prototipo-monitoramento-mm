@@ -2,14 +2,14 @@
 import { ref, onMounted, nextTick, computed } from "vue";
 
 const formData = ref({
-  usuario: "rafael.koteski@lojasmm.com.br",
-  senha: "M4tr1x@123",
   placa: "RFQ-1I47",
   dataInicio: "",
   horaInicio: "",
   dataFim: "",
   horaFim: "",
 });
+const PROXY_URL = import.meta.env.VITE_PROXY_URL;
+const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
 const loading = ref(false);
 const error = ref("");
@@ -61,7 +61,11 @@ const loadGoogleMapsScript = () => {
     }
 
     const script = document.createElement("script");
-    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyCo35ev26Kz539X66SJzRnXyTA3jaEwLNo&libraries=visualization&loading=async`;
+    if (!GOOGLE_MAPS_API_KEY) {
+      reject(new Error("VITE_GOOGLE_MAPS_API_KEY não configurado"));
+      return;
+    }
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_API_KEY}&libraries=visualization&loading=async`;
     script.async = true;
     script.defer = true;
     script.onload = resolve;
@@ -72,7 +76,7 @@ const loadGoogleMapsScript = () => {
 
 const loadFiliais = async () => {
   try {
-    const response = await fetch("/filiais.json");
+    const response = await fetch(`${import.meta.env.BASE_URL}filiais.json`);
     filiais.value = await response.json();
   } catch (err) {
     console.error("Erro ao carregar filiais:", err);
@@ -101,23 +105,6 @@ const convertToUTC0 = (date, time) => {
 const convertFromUTC0 = (utcDateStr) => {
   const dateObj = new Date(utcDateStr + "Z");
   return dateObj.toLocaleString("pt-BR", { timeZone: "America/Sao_Paulo" });
-};
-
-const buildSoapRequest = (usuario, senha, placa, dataInicio, dataFim) => {
-  return `<?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <soap:Body>
-    <recebePosicoesPlaca xmlns="urn:wsPosicoes">
-      <usuario_mapas xsi:type="xsd:string">${usuario}</usuario_mapas>
-      <senha_mapas xsi:type="xsd:string">${senha}</senha_mapas>
-      <data_inicio xsi:type="xsd:string">${dataInicio}</data_inicio>
-      <data_fim xsi:type="xsd:string">${dataFim}</data_fim>
-      <rotulo xsi:type="xsd:string">${placa}</rotulo>
-    </recebePosicoesPlaca>
-  </soap:Body>
-</soap:Envelope>`;
 };
 
 const parseSoapResponse = (xmlText) => {
@@ -328,8 +315,6 @@ const handleSubmit = async () => {
   showMap.value = false;
 
   if (
-    !formData.value.usuario ||
-    !formData.value.senha ||
     !formData.value.placa ||
     !formData.value.dataInicio ||
     !formData.value.horaInicio ||
@@ -337,6 +322,10 @@ const handleSubmit = async () => {
     !formData.value.horaFim
   ) {
     error.value = "Todos os campos são obrigatórios";
+    return;
+  }
+  if (!PROXY_URL) {
+    error.value = "VITE_PROXY_URL não configurado";
     return;
   }
 
@@ -351,18 +340,14 @@ const handleSubmit = async () => {
       formData.value.dataFim,
       formData.value.horaFim
     );
-    const soapRequest = buildSoapRequest(
-      formData.value.usuario,
-      formData.value.senha,
-      formData.value.placa,
-      dataInicioUTC,
-      dataFimUTC
-    );
-
-    const response = await fetch("http://localhost:3001/api/posicoes", {
+    const response = await fetch(`${PROXY_URL}/api/posicoes`, {
       method: "POST",
-      headers: { "Content-Type": "text/xml; charset=utf-8" },
-      body: soapRequest,
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        placa: formData.value.placa,
+        dataInicio: dataInicioUTC,
+        dataFim: dataFimUTC,
+      }),
     });
 
     if (!response.ok) throw new Error(`Erro HTTP: ${response.status}`);
@@ -529,32 +514,6 @@ const goToInputPage = () => {
         </div>
 
         <div class="space-y-6">
-          <!-- Credenciais -->
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <label class="block text-sm font-medium text-gray-700 mb-2">
-                Usuário
-              </label>
-              <input
-                type="text"
-                v-model="formData.usuario"
-                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
-                placeholder="seu_usuario"
-              />
-            </div>
-            <div>
-              <label class="block text-sm font-medium text-gray-700 mb-2">
-                Senha
-              </label>
-              <input
-                type="password"
-                v-model="formData.senha"
-                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
-                placeholder="••••••••"
-              />
-            </div>
-          </div>
-
           <!-- Placa -->
           <div>
             <label class="block text-sm font-medium text-gray-700 mb-2">
